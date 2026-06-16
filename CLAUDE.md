@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-SC 智答 (SC AI, forked from AI Clash) is a Chrome/Edge browser extension that lets users query multiple AI models simultaneously in a single side panel, comparing answers in real-time. It uses DOM-level hooks (content scripts) to inject prompts into AI web pages — zero API cost. A companion website (packages/site) hosts marketing/docs, and a Java backend (packages/api) provides share links and a built-in summarizer.
+SC 智答 (SC AI, forked from AI Clash) is a Chrome/Edge browser extension that lets users query multiple AI models simultaneously in a single side panel, comparing answers in real-time. It uses DOM-level hooks (content scripts) to inject prompts into AI web pages — zero API cost. A companion website (packages/site) hosts marketing/docs. The final review/summary is produced by a domestic AI (DeepSeek web mode by default).
 
 ## Architecture
 
@@ -26,10 +26,6 @@ The project is a monorepo with three packages plus the extension root:
 │   ├── src/index.ts       — Core incremental streaming utilities
 │   └── src/providers/     — Provider-specific injection adapters (doubao, longcat, mimo, wenxin, yuanbao)
 ├── packages/site/         — Marketing/docs site (Vite + React, separate from extension)
-├── packages/api/          — Java Spring Boot backend (Maven, Docker)
-│   ├── ShareController    — REST API for share links
-│   ├── ShareService       — Share record management
-│   └── ShareSnapshotValidator — Snapshot integrity validation
 └── vite.config.js         — Extension build config (crx plugin, zip-pack, HMR)
 ```
 
@@ -63,9 +59,6 @@ bun run test
 
 # Run Playwright E2E tests in UI mode
 bun run test:ui
-
-# Build API Docker image
-bun run build:api
 ```
 
 ## Adding a New Provider

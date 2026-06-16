@@ -23,17 +23,8 @@ export const homePages = {
     logoAlt: 'SC AI Logo',
     demoAlt: 'SC AI 演示动画',
     actions: [
-      {
-        kind: 'brand chrome',
-        label: 'Chrome 商店下载',
-        href: 'https://chromewebstore.google.com/detail/ggngmgpjdklmkpoldbfahmeefpnfhhai',
-      },
-      {
-        kind: 'brand edge',
-        label: 'Edge 商店下载',
-        href: 'https://microsoftedge.microsoft.com/addons/detail/khjmihaeihajagobgbdhlbjeobdpmfkm',
-      },
-      { kind: 'alt', label: '下载离线 ZIP 包', href: '/download' },
+      { kind: 'brand', label: '下载离线 ZIP 包', href: '/download' },
+      { kind: 'alt', label: 'GitHub 仓库', href: 'https://github.com/SuxL0228/sc-ai' },
     ],
     features: [
       {
@@ -58,17 +49,8 @@ export const homePages = {
     logoAlt: 'SC AI Logo',
     demoAlt: 'SC AI Demo Animation',
     actions: [
-      {
-        kind: 'brand chrome',
-        label: 'Chrome Web Store',
-        href: 'https://chromewebstore.google.com/detail/ggngmgpjdklmkpoldbfahmeefpnfhhai',
-      },
-      {
-        kind: 'brand edge',
-        label: 'Edge Add-ons',
-        href: 'https://microsoftedge.microsoft.com/addons/detail/khjmihaeihajagobgbdhlbjeobdpmfkm',
-      },
-      { kind: 'alt', label: 'Download Offline ZIP', href: '/en/download' },
+      { kind: 'brand', label: 'Download Offline ZIP', href: '/en/download' },
+      { kind: 'alt', label: 'GitHub Repo', href: 'https://github.com/SuxL0228/sc-ai' },
     ],
     features: [
       {
@@ -97,12 +79,12 @@ export const downloads = {
     storeIntro: '如果你可以正常访问外网，强烈推荐通过官方商店安装，这样可以获得自动更新的能力。',
     chrome: 'Chrome Web Store 官方下载',
     edge: 'Edge Add-ons 官方下载',
-    offlineTitle: '方式二：离线 ZIP 包开发者模式安装 (国内可直连)',
-    offlineIntro: '无法访问应用商店时，可以直接从官网下载离线包，再按以下 3 步安装。',
+    offlineTitle: '开发者模式安装离线 ZIP 包',
+    offlineIntro: '从 GitHub 下载离线包，再按以下 3 步安装即可使用。',
     stepDownload: '1. 下载最新版 ZIP 包',
     releaseHref: 'https://github.com/SuxL0228/sc-ai/releases/download/v1.2.1/sc-ai-v1.2.1.zip',
     releaseLink: '👉 直接下载 SC 智答 v1.2.1 离线包',
-    releaseNote: '(下载 sc-ai-v1.2.1.zip；开发者模式安装不会自动更新，推荐优先使用 Chrome/Edge 应用商店)',
+    releaseNote: '(下载 sc-ai-v1.2.1.zip；开发者模式安装不会自动更新，更新时重新下载替换即可)',
     stepUnzip: '2. 解压文件',
     unzip: '将下载的 ZIP 文件解压到电脑上的一个常用文件夹中（请不要删除该文件夹）。',
     stepLoad: '3. 在浏览器中加载',
@@ -118,12 +100,12 @@ export const downloads = {
     storeIntro: 'If you can access the stores, it is highly recommended to install through them to get automatic updates.',
     chrome: 'Chrome Web Store',
     edge: 'Edge Add-ons',
-    offlineTitle: 'Method 2: Offline ZIP Installation (Developer Mode)',
-    offlineIntro: 'If you cannot access the stores, download the offline package directly from this site and install it in 3 steps.',
+    offlineTitle: 'Install via Offline ZIP (Developer Mode)',
+    offlineIntro: 'Download the offline package from GitHub and install it in 3 steps.',
     stepDownload: '1. Download the Latest ZIP',
     releaseHref: 'https://github.com/SuxL0228/sc-ai/releases/download/v1.2.1/sc-ai-v1.2.1.zip',
     releaseLink: '👉 Directly Download SC AI v1.2.1 Offline Package',
-    releaseNote: '(Downloads sc-ai-v1.2.1.zip; developer-mode installs do not update automatically, so prefer the Chrome/Edge stores when available)',
+    releaseNote: '(Downloads sc-ai-v1.2.1.zip; developer-mode installs do not update automatically — re-download to update)',
     stepUnzip: '2. Unzip Files',
     unzip: 'Extract the downloaded ZIP file to a folder on your computer (please do not delete this folder later).',
     stepLoad: '3. Load in Browser',
