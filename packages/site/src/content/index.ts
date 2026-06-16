@@ -75,10 +75,6 @@ export const homePages = {
 export const downloads = {
   zh: {
     title: '📥 插件下载与安装',
-    storeTitle: '方式一：应用商店一键安装 (推荐)',
-    storeIntro: '如果你可以正常访问外网，强烈推荐通过官方商店安装，这样可以获得自动更新的能力。',
-    chrome: 'Chrome Web Store 官方下载',
-    edge: 'Edge Add-ons 官方下载',
     offlineTitle: '开发者模式安装离线 ZIP 包',
     offlineIntro: '从 GitHub 下载离线包，再按以下 3 步安装即可使用。',
     stepDownload: '1. 下载最新版 ZIP 包',
@@ -96,10 +92,6 @@ export const downloads = {
   },
   en: {
     title: '📥 Download & Installation',
-    storeTitle: 'Method 1: Store Installation (Recommended)',
-    storeIntro: 'If you can access the stores, it is highly recommended to install through them to get automatic updates.',
-    chrome: 'Chrome Web Store',
-    edge: 'Edge Add-ons',
     offlineTitle: 'Install via Offline ZIP (Developer Mode)',
     offlineIntro: 'Download the offline package from GitHub and install it in 3 steps.',
     stepDownload: '1. Download the Latest ZIP',

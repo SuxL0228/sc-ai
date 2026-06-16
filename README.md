@@ -7,6 +7,8 @@
 [![GitHub Release](https://img.shields.io/github/v/release/SuxL0228/sc-ai?style=for-the-badge)](https://github.com/SuxL0228/sc-ai/releases)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg?style=for-the-badge)](https://www.gnu.org/licenses/gpl-3.0)
 
+**简体中文 ｜ [English](README.en.md)**
+
 > 💥 一个问题问 N 个国产 AI，答案互相对撞，再让 AI 当裁判直接归纳出最优解！
 >
 > 🔥 已支持：DeepSeek｜豆包｜通义千问｜腾讯元宝｜文心一言｜Xiaomi MIMO

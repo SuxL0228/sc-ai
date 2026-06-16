@@ -24,22 +24,21 @@ const PROVIDER_ICON_MAP: Record<string, IconComponent | { Color: IconComponent }
   wenxin: Wenxin,
   longcat: LongCat,
   xiaomi: { Color: XiaomiMiMo },
-  // 内置总结服务
-  summarizer: { Color: MergeCellsOutlined as unknown as IconComponent },
+  // AI 裁判归纳结果
   summary: { Color: MergeCellsOutlined as unknown as IconComponent },
 };
 
 /**
  * 获取 Provider 图标集合
  */
-export function getProviderIconSet(providerId: ProviderId | 'summary' | 'summarizer') {
+export function getProviderIconSet(providerId: ProviderId | 'summary') {
   return PROVIDER_ICON_MAP[providerId];
 }
 
 /**
  * 获取 Provider 图标（返回单个图标组件）
  */
-export function getProviderIcon(providerId: ProviderId | 'summary' | 'summarizer'): IconComponent | undefined {
+export function getProviderIcon(providerId: ProviderId | 'summary'): IconComponent | undefined {
   const iconSet = PROVIDER_ICON_MAP[providerId];
   if (!iconSet) return undefined;
   // 如果是 { Color: Icon } 类型，返回 Color
@@ -52,7 +51,7 @@ export function getProviderIcon(providerId: ProviderId | 'summary' | 'summarizer
 /**
  * 获取 Provider 彩色图标（用于设置面板等）
  */
-export function getProviderColorIcon(providerId: ProviderId | 'summary' | 'summarizer') {
+export function getProviderColorIcon(providerId: ProviderId | 'summary') {
   const iconSet = PROVIDER_ICON_MAP[providerId];
   if (!iconSet) return undefined;
   // 如果是 { Color: Icon } 类型，返回 Color
