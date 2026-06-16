@@ -1,0 +1,67 @@
+{
+  "name": "@sc-ai/inject",
+  "version": "0.1.0",
+  "description": "SC 智答 Inject - A standalone injection library for controlling AI chat interfaces",
+  "type": "module",
+  "main": "./dist/index.umd.js",
+  "module": "./dist/index.esm.js",
+  "types": "./dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/types/index.d.ts",
+      "import": "./dist/index.esm.js",
+      "require": "./dist/index.umd.js"
+    },
+    "./standalone": {
+      "types": "./dist/types/index.d.ts",
+      "import": "./dist/standalone.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "dev": "concurrently \"vite build --mode standalone --watch\" \"npx http-server dist -p 5173 --cors -c-1\"",
+    "dev:build-only": "vite build --mode standalone --watch",
+    "serve": "npx http-server dist -p 5173 --cors -c-1",
+    "build": "vite build && vite build --mode standalone",
+    "build:esm": "vite build",
+    "build:standalone": "vite build --mode standalone",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "ai",
+    "injection",
+    "automation",
+    "deepseek",
+    "doubao",
+    "qianwen",
+    "longcat",
+    "yuanbao"
+  ],
+  "author": "SC",
+  "license": "GPL-3.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sucan0228/sc-ai.git",
+    "directory": "packages/inject"
+  },
+  "bugs": {
+    "url": "https://github.com/sucan0228/sc-ai/issues"
+  },
+  "homepage": "https://github.com/sucan0228/sc-ai#readme",
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "typescript": "~5.9.3",
+    "vite": "^7.3.5"
+  },
+  "peerDependencies": {
+    "@types/chrome": "^0.1.42"
+  },
+  "peerDependenciesMeta": {
+    "@types/chrome": {
+      "optional": true
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "extensionName": {
+    "message": "SC 智答 - 多款国产 AI 同屏对比，DeepSeek 智能评审",
+    "description": "扩展名称"
+  },
+  "extensionDescription": {
+    "message": "一次提问，DeepSeek、豆包、通义千问、腾讯元宝、文心一言等多款满血国产 AI 同屏对撞！零成本调用网页原生算力进行交叉验证，默认由 DeepSeek 担任智能评审一键归纳最优解，彻底告别频繁切网页的效率内耗。",
+    "description": "扩展描述"
+  }
+}
