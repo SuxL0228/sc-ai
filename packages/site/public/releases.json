@@ -2,13 +2,13 @@
   "schemaVersion": 1,
   "updatedAt": "2026-06-16",
   "recommended": "github",
-  "changelogUrl": "https://github.com/sucan0228/sc-ai/releases",
+  "changelogUrl": "https://github.com/SuxL0228/sc-ai/releases",
   "channels": {
     "github": {
       "label": "GitHub 离线包",
       "version": "1.2.1",
       "status": "preview",
-      "url": "https://github.com/sucan0228/sc-ai/releases/download/v1.2.1/sc-ai-v1.2.1.zip",
+      "url": "https://github.com/SuxL0228/sc-ai/releases/download/v1.2.1/sc-ai-v1.2.1.zip",
       "note": "可从 GitHub Releases 直接下载离线包并手动安装。"
     }
   }

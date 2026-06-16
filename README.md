@@ -4,7 +4,7 @@
   <img src="public/logo.png" width="120" alt="SC 智答 Logo">
 </p>
 
-[![GitHub Release](https://img.shields.io/github/v/release/sucan0228/sc-ai?style=for-the-badge)](https://github.com/sucan0228/sc-ai/releases)
+[![GitHub Release](https://img.shields.io/github/v/release/SuxL0228/sc-ai?style=for-the-badge)](https://github.com/SuxL0228/sc-ai/releases)
 
 > 💥 一个问题问 N 个国产 AI，答案互相对撞，直接拿最优解！
 >
@@ -41,7 +41,7 @@
 
 ### 方式二：手动安装（现在就能用）
 
-1. 去 [Releases](https://github.com/sucan0228/sc-ai/releases/) 下载最新版的插件包
+1. 去 [Releases](https://github.com/SuxL0228/sc-ai/releases/) 下载最新版的插件包
 2. 解压到一个你找得到的文件夹（不要删除哦）
 3. 打开浏览器地址栏输入：
    * Chrome: `chrome://extensions/`

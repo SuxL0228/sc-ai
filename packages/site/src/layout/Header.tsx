@@ -101,7 +101,7 @@ export function Header({
           {!appMode ? (
             <a
               className="icon-link"
-              href="https://github.com/sucan0228/sc-ai"
+              href="https://github.com/SuxL0228/sc-ai"
               aria-label="GitHub"
             >
               <GithubOutlined />
@@ -165,7 +165,7 @@ export function Header({
         </div>
         <a
           className="mobile-github-link"
-          href="https://github.com/sucan0228/sc-ai"
+          href="https://github.com/SuxL0228/sc-ai"
           onClick={() => setMenuOpen(false)}
         >
           <GithubOutlined />

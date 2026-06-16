@@ -44,13 +44,13 @@
   "license": "GPL-3.0-or-later",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sucan0228/sc-ai.git",
+    "url": "https://github.com/SuxL0228/sc-ai.git",
     "directory": "packages/inject"
   },
   "bugs": {
-    "url": "https://github.com/sucan0228/sc-ai/issues"
+    "url": "https://github.com/SuxL0228/sc-ai/issues"
   },
-  "homepage": "https://github.com/sucan0228/sc-ai#readme",
+  "homepage": "https://github.com/SuxL0228/sc-ai#readme",
   "devDependencies": {
     "concurrently": "^9.2.1",
     "typescript": "~5.9.3",
